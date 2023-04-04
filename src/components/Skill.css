@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+}
+#title {
+  font-size: 22px;
+  font-weight: 800;
+}
+.card-container {
+  border: 2px solid black;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 10px;
+}
+.skills-card {
+  border: 1px solid blue;
+  width: 150px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.skills-card:hover {
+  background-color: rgb(23, 23, 45);
+}
+.skills-card-name {
+  color: white;
+}
+@media screen and (max-width: 780px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    height: 750px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 1050px;
+  }
+}
