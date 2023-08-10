@@ -72,13 +72,16 @@ const Project = () => {
           <div className="project-card">
             <div>
               {" "}
-              <img src={img3} alt="headphone" />
-              <h3 className="project-title">LensKart.com</h3>
+              <img
+                src="https://user-images.githubusercontent.com/110036788/230706397-ce6a2f11-9df2-4cb9-b4a1-a94dbfba2cbf.png"
+                alt="headphone"
+              />
+              <h3 className="project-title">Ebuzz.com</h3>
               <hr />
               <p className="project-description">
-                Lenskart is a leading e-commerce company that maintains an
-                online optical store packed with both classic and trendy
-                eyeglasses.
+                ebuzz is an American multinational e-commerce platform that
+                facilitates online consumer-to-consumer and business-to-consumer
+                sales.
               </p>
               <hr />
               <h4 className="project-tech-stack">
@@ -88,14 +91,14 @@ const Project = () => {
               <hr />
               <button className="project-github-link">
                 {" "}
-                <a href="https://github.com/ayush7863/likeable-shade-727">
+                <a href="https://github.com/Vv97/rampant-quiet-9349">
                   <i class="fa-brands fa-github" id="github"></i>
                   {"   "}
                   GITHUB
                 </a>
               </button>
               <button className="project-deployed-link">
-                <a href="https://eyekart.vercel.app//">
+                <a href="https://ret-vv97.vercel.app/">
                   <i class="fa-sharp fa-solid fa-link"></i>
                   {"   "}LIVE
                 </a>
@@ -105,29 +108,32 @@ const Project = () => {
           <div className="project-card">
             <div>
               {" "}
-              <img src={img4} alt="headphone" />
-              <h3 className="project-title">Fitness Blender.com</h3>
+              <img
+                src="https://user-images.githubusercontent.com/112753516/229416049-92952fd8-2dba-4775-9436-b7b64a3e240b.png"
+                alt="headphone"
+              />
+              <h3 className="project-title">StyloZone.com</h3>
               <hr />
               <p className="project-description">
-                Fitness Blender provides hundreds of workouts, healthy recipes,
-                relaxing meditations, and expert articles, for a whole body and
-                mind approach to feeling great.
+                StyloZone is a leading e-commerce company that maintains an
+                online Fashion store packed with both classic and trendy
+                Clothes, beauty product and more at affordable prices.
               </p>
               <hr />
               <h4 className="project-tech-stack">
-                TECH STACK:<span id="tech-stack">HTML CSS AND JAVASCRIPT</span>{" "}
+                TECH STACK:<span id="tech-stack">MERN AND JAVASCRIPT</span>{" "}
               </h4>
               <hr />
               <button className="project-github-link">
                 {" "}
-                <a href="https://github.com/ayush7863/festive-wool-1013/tree/main">
+                <a href="https://github.com/SumanBlswas/spicy-yak-7891">
                   <i class="fa-brands fa-github" id="github"></i>
                   {"   "}
                   GITHUB
                 </a>
               </button>
               <button className="project-deployed-link">
-                <a href="https://page-dusky.vercel.app//">
+                <a href="https://frontend-nu-hazel-89.vercel.app/">
                   <i class="fa-sharp fa-solid fa-link"></i>
                   {"   "}LIVE
                 </a>

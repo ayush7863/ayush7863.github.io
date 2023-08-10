@@ -19,7 +19,7 @@ const Navbar = () => {
       "_blank"
     );
     const link = document.createElement("a");
-    link.download = "Ayush_Kaushik_Resume.pdf";
+    link.download = "Ayush-Kaushik-Resume.pdf";
     document.body.appendChild(link);
     link.click();
   };
@@ -48,7 +48,7 @@ const Navbar = () => {
         <button id="resume-button-1">
           <a
              
-              href="Ayush_Kaushik_Resume.pdf"
+              href="Ayush-Kaushik-Resume.pdf"
               target="_blank"
               download={true}
               rel="noreferrer"

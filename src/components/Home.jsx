@@ -13,7 +13,7 @@ export const Home = () => {
       "_blank"
     );
     const link = document.createElement("a");
-    link.download = "Ayush_Kaushik_Resume.pdf";
+    link.download = "Ayush-Kaushik-Resume.pdf";
     document.body.appendChild(link);
     link.click();
   };
@@ -52,7 +52,7 @@ export const Home = () => {
           <button className="resume-btn" id="resume-button-2">
             <a
              
-              href="Ayush_Kaushik_Resume.pdf"
+              href="Ayush-Kaushik-Resume.pdf"
               target="_blank"
               download={true}
               rel="noreferrer"
@@ -60,8 +60,7 @@ export const Home = () => {
               id="resume-link-2"
             >
               Resume
-            </a>
-           
+            </a>           
           </button>
         </div>
       </div>
