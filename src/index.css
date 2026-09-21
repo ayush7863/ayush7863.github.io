@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* offset for the fixed header when jumping to an anchor */
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    @apply bg-void font-body text-[15px] leading-relaxed text-slate-200 antialiased;
+    overscroll-behavior: none;
+  }
+
+  ::selection {
+    @apply bg-emerald-500/20 text-emerald-300;
+  }
+
+  /* Visible keyboard focus everywhere, without the mouse-click ring */
+  :focus-visible {
+    @apply outline-none ring-2 ring-emerald-400/70 ring-offset-2 ring-offset-void;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Structural card: surface-1 at 60% over the void, 1px hairline delimiter */
+  .panel {
+    @apply rounded-xl border border-slate-800 bg-slate-900/60 backdrop-blur-xl;
+  }
+
+  /* Monospace metadata label */
+  .mono-label {
+    @apply font-code text-[11px] uppercase tracking-wider text-slate-500;
+  }
+}
